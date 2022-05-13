@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'Prata': ['Prata'],
+      'PTSans': ['PT Sans']
+    }
   },
   plugins: [
   ],
