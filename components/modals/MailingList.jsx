@@ -18,7 +18,7 @@ export default function MailingList() {
                                 <div className="flex text-[65px] text-[#FD8C94] justify-center align-center items-center text-right w-full">&</div>
                                 <div className="flex flex-col text-left">
                                     <div className="flex w-full md:w-[50%] text-[167px] text-[#464646] text-left mr-24 mt-36">20<span className="text-[82px] position relative top-5">%<p className="text-[28px]">OFF</p></span></div>
-                                    <div className="flex flex-col  mb-24">
+                                    <div className="flex flex-col mb-24 mr-24">
                                         <form action="" className="flex w-full justify-between">
                                             <input className="w-[180px] border-b border-black" type="text" name="email" placeholder="Email Address"/>
                                             <button className="w-[93px] border-b border-gray-400">Sign Up</button>
