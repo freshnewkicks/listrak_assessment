@@ -10,7 +10,8 @@
     "flowbite": "^1.4.5",
     "next": "12.1.4",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-github-fork-banner": "^1.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
