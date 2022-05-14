@@ -1,8 +1,9 @@
-import {useEffect, useState} from "react";
-
+import {useState} from "react";
+import Link from 'next/link'
 
 export default function MailingList() {
     const [currentSlide, setCurrentSlide] = useState('registration')
+
 
     const handleFormSubmit = (e) => {
         e.preventDefault()
@@ -56,7 +57,7 @@ export default function MailingList() {
                             </div>
 
                             <div className="flex justify-center w-full">
-                                <div  className="flex position relative right-24 top-16 sm:top-10 sm:right-48 sm:bottom-4">
+                                <div  className="flex position relative right-24 top-16 sm:top-10 sm:right-48 sm:bottom-4 right-28 ">
                                     <span className="position relative sm:bottom-24 flex sm:w-[165px] flex justify-between items-center">
                                         <div className="w-[9.62px] h-[9.62px] bg-[#e9e9e9] rounded-full"/>
                                         <div className="flex w-[102px] h-0  border-[1px] border-[#e9e9e9] position absolute"/>
@@ -84,7 +85,10 @@ export default function MailingList() {
                             </div>
 
                             <div className="w-full flex justify-center text-justify position relative sm:bottom-14 sm:right-60 sm:top-0 top-28">
-                                <button type="submit" className="w-[320px] sm:w-[93px] font-bold font-PTSans text-[#fd8c94] sm:border-b-[3px] sm:border-0 border-[3px] border-[#fd8c94] tracking-widest p-2 sm:p-0 position relative sm:bottom-12 sm:left-2"><span className="">Go Shop!</span></button>
+                                <button type="submit" className="w-[320px] sm:w-[93px] font-bold font-PTSans text-[#fd8c94] sm:border-b-[3px] sm:border-0 border-[3px] border-[#fd8c94] tracking-widest p-2 sm:p-0 position relative sm:bottom-12 sm:left-2"><span className="">
+                                    <Link href="https://www.listrak.com" passHref={true}>Go Shop!</Link>
+                                </span>
+                                </button>
                             </div>
                         </div>
                     </div>
