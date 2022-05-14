@@ -85,10 +85,10 @@ export default function MailingList() {
                             </div>
 
                             <div className="w-full flex justify-center text-justify position relative sm:bottom-14 sm:right-60 sm:top-0 top-28">
-                                <button type="submit" className="w-[320px] sm:w-[93px] font-bold font-PTSans text-[#fd8c94] sm:border-b-[3px] sm:border-0 border-[3px] border-[#fd8c94] tracking-widest p-2 sm:p-0 position relative sm:bottom-12 sm:left-2"><span className="">
-                                    <Link href="https://www.listrak.com" passHref={true}>Go Shop!</Link>
-                                </span>
-                                </button>
+
+            <Link href="https://www.listrak.com" passHref={true}>
+                <button type="submit" className="w-[320px] sm:w-[93px] font-bold font-PTSans text-[#fd8c94] sm:border-b-[3px] sm:border-0 border-[3px] border-[#fd8c94] tracking-widest p-2 sm:p-0 position relative sm:bottom-12 sm:left-2">Go Shop!</button>
+            </Link>
                             </div>
                         </div>
                     </div>
