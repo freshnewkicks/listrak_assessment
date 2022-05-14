@@ -17,7 +17,7 @@ export default function MailingList() {
                                 <div className="flex flex-col w-full text-center sm:text-[65px] text-[45px] text-[#464646] tracking-widest sm:ml-24 mt-8 sm:mt-12 sm:mb-24">Get Your Style On</div>
                                 <div className="flex text-[65px] text-[#FD8C94] justify-center align-center items-center text-right w-full">&</div>
                                 <div className="flex flex-col text-left w-full position relative bottom-2">
-                                    <div className="flex w-full md:w-[50%] text-[167px] text-[#464646] text-left sm:mr-24 sm:mt-36 position relative bottom-12 sm:bottom-0 justify-center sm:justify-between">20<span className="text-[82px] position relative top-5">%<p className="text-[28px]">OFF</p></span></div>
+                                    <div className="flex w-full md:w-[50%] text-[167px] text-[#464646] text-left sm:mr-24 sm:mt-36 position relative bottom-12 sm:bottom-0 sm:justify-start justify-center">20<span className="text-[82px] position relative top-5">%<p className="text-[28px]">OFF</p></span></div>
                                     <div className="flex flex-col sm:mb-24 sm:mr-24">
                                         <form action="" className="flex flex-col items-center sm:flex-row w-full justify-between position relative sm:bottom-0 bottom-24">
                                             <input className="w-[320px] sm:w-[180px] border-b-[3px] border-black font-PTSans font-bold focus:outline-none focus:text-gray-500 active:text-gray-700 text-center sm:mb-0 mb-6" type="text" name="email" placeholder="Email Address"/>
