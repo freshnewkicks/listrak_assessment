@@ -60,9 +60,9 @@ export default function MailingList() {
                                     <span className="position relative sm:bottom-24 flex sm:w-[165px] flex justify-between items-center">
                                         <div className="w-[9.62px] h-[9.62px] bg-[#e9e9e9] rounded-full"/>
                                         <div className="w-[102px] h-0  border-[1px] border-[#e9e9e9] position absolute left-3"/>
-                                        <div className="w-[14.75px] h-[14.75px] bg-[#e9e9e9] rounded-full position relative left-32"/>
-                                        <div className="w-[9.62px] h-[9.62px] bg-[#e9e9e9] rounded-full position relative left-24"/>
-                                        <div className="w-[9.62px] h-[9.62px] bg-[#e9e9e9] rounded-full position relative left-32"/>
+                                        <div className="w-[14.75px] h-[14.75px] bg-[#e9e9e9] rounded-full position relative left-20"/>
+                                        <div className="w-[9.62px] h-[9.62px] bg-[#e9e9e9] rounded-full position relative left-11"/>
+                                        <div className="w-[9.62px] h-[9.62px] bg-[#e9e9e9] rounded-full position relative right-10"/>
                                     </span>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ export default function MailingList() {
                                 </div>
                             </div>
 
-                            <div className="w-full flex justify-center text-justify position relative sm:bottom-14 sm:right-60 top-28">
+                            <div className="w-full flex justify-center text-justify position relative sm:bottom-14 sm:right-60">
                                 <button type="submit" className="w-[320px] sm:w-[93px] font-bold font-PTSans text-[#fd8c94] sm:border-b-[3px] sm:border-0 border-[3px] border-[#fd8c94] tracking-widest p-2 sm:p-0 "><span className="">Go Shop!</span></button>
                             </div>
                         </div>
