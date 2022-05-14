@@ -80,7 +80,7 @@ export default function MailingList() {
 
                             <div className="w-full flex justify-center text-center sm:text-justify">
                                 <div className="w-[261px] h-[69px] sm:w-[488px] sm:h-[18px] position relative sm:bottom-32  sm:right-8">
-                                    <p className="w-full text-[14px] tracking-[0.7px] leading-7 position relative sm:top-0 top-24 text-justify">We&apos;ll keep you updated on any deals, news, or gossip that comes our way!</p>
+                                    <p className="w-full text-[14px] tracking-[0.7px] leading-7 position relative sm:top-0 top-20 text-justify">We&apos;ll keep you updated on any deals, news, or gossip that comes our way!</p>
                                 </div>
                             </div>
 
