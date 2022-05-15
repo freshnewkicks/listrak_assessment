@@ -60,7 +60,7 @@ export default function MailingList() {
                                 <div  className="flex position relative right-24 top-16 sm:top-10 sm:right-48 sm:bottom-4 right-28 ">
                                     <span className="position relative sm:bottom-24 flex sm:w-[165px] flex justify-between items-center">
                                         <div className="w-[9.62px] h-[9.62px] bg-[#e9e9e9] rounded-full"/>
-                                        <div className="flex w-[102px] h-0  border-[1px] border-[#e9e9e9] position absolute"/>
+                                        <div className="flex w-[102px] h-0  border-[1px] border-[#e9e9e9] bg-[#e9e9e9] position absolute"/>
                                         <ul className="flex rotate-180 sm:justify-between justify-around w-full sm:w-4/12 align-center items-center position absolute sm:left-24 sm:mx-2 left-28 mx-2">
                                             <li className="sm:px-0 px-2">
                                         <div className="w-[9.62px] h-[9.62px] bg-[#e9e9e9] rounded-full position relative"/>
